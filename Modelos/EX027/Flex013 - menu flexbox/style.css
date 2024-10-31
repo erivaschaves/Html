@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*Configurações gerais */
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+/*Configurações da tag body*/
+body {
+    font-family: Arial, Helvetica, sans-serif; /*Tipo da fonte*/
+    font-size: 1em; /*Tamanho da fonte*/
+    background-color: lightgray; /*cor de fundo*/
+    height: 100vh; /*Altura 100 vezes a altura da tela*/
+    width: 100vw; /*Largura 100 vezes a Largura da tela*/
+}
+
+header {
+    background-color: gray;
+    color: white; /*Cor da fonte*/
+}
+
+header > h1 {
+    border: 1px dotted black; /*Criando borda pontilhada*/
+}
+
+header > nav {
+    border: 1px dotted black;
+}
+
+main {
+    background-color: white;
+    margin: 10px; /*Definindo a margin*/
+    padding: 10px; /*Definindo distância do elemento pra margin */
+    border-radius: 10px; /*Arredondando a borda */
+    box-shadow: 2px 2px 3px black; /*Criando sombreamento*/
+}
+
+
+
