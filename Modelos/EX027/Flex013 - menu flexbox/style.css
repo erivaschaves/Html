@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*Configurações gerais */
+/*Configurações gerais*/
 *{
     margin: 0;
     padding: 0px;
@@ -13,20 +13,40 @@ body {
     height: 100vh; /*Altura 100 vezes a altura da tela*/
     width: 100vw; /*Largura 100 vezes a Largura da tela*/
 }
-
+/*Configurações da tag header*/
 header {
     background-color: gray;
     color: white; /*Cor da fonte*/
+    padding: 10px;
+    display: flex; /*Definindo conteiner flexivel*/
+    flex-flow: row wrap; /*Definindo quebra de linha*/
 }
-
+/*Configurações do h1 de header*/
 header > h1 {
     border: 1px dotted black; /*Criando borda pontilhada*/
 }
-
+/*Configurações do cabeçalho de navegação*/
 header > nav {
     border: 1px dotted black;
 }
+/*Configurações dos links da tag nav*/
+header > nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none; /*Retirando decoração de texto*/
+    text-align: center; /*Centralizando texto*/
+}
+/*Configurações dos links da tag nav ao passar o mouse*/
+header > nav > a:hover {
+    background-color:white;
+    color: black;
+    transition: background-color .5s; /*Tempo de transição*/
+}
 
+/*Configurações da tag main*/
 main {
     background-color: white;
     margin: 10px; /*Definindo a margin*/
