@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*Configurações da tag header nav*/
+header, header > nav {
+    flex-flow: column nowrap ; /*Definindo itens em coluna sem quebra*/
+
+}
+/*Configurações da tag header h1*/
+header > h1 {
+    flex-basis: 50px; /*Definindo o tamanho fixo*/
+}
+
+header > nav > a {
+    width: 90vw; /*Defininfo 90 vezes a largura*/
+}

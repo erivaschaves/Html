@@ -25,12 +25,13 @@ header {
 }
 /*Configurações do h1 de header*/
 header > h1 {
-    border: 1px dotted black; /*Criando borda pontilhada*/
+    /*border: 1px dotted black; /*Criando borda pontilhada*/
     flex: 0 0 200px; /*Definindo grow, shrink, flex basis*/
+    text-shadow: 2px 2px 0px black ; /*Sombra do texto*/
 }
 /*Configurações do cabeçalho de navegação*/
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end; /*Ajustando espaço restante no final*/
