@@ -20,14 +20,21 @@ header {
     padding: 10px;
     display: flex; /*Definindo conteiner flexivel*/
     flex-flow: row wrap; /*Definindo quebra de linha*/
+    justify-content: space-between; /*Ajustando espaço restante entre o conteúdo*/
+    align-items: center;/*Alinhando os itens ao centro*/
 }
 /*Configurações do h1 de header*/
 header > h1 {
     border: 1px dotted black; /*Criando borda pontilhada*/
+    flex: 0 0 200px; /*Definindo grow, shrink, flex basis*/
 }
 /*Configurações do cabeçalho de navegação*/
 header > nav {
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end; /*Ajustando espaço restante no final*/
+    
 }
 /*Configurações dos links da tag nav*/
 header > nav > a {
